@@ -1,0 +1,31 @@
+<div class="container">
+
+  <div >
+    <h3>{{title}}</h3>
+    <nav id="nav-bar"></nav>
+
+    <select (change)="selectOption($event.target)" id="input-field">
+
+      <option id=dogUrl value=0>Dog</option>
+
+      <option id=catUrl value=1>Cat</option>
+
+      <option id=lionUrl value=2>Lion</option>
+
+      <option id=tigerUrl value=3>Tiger</option>
+
+      <option id=elephantUrl value=4>Elephant</option>
+
+    </select>
+
+  </div>
+
+  <div class="imagePart">
+
+    <img src="{{animalPosition}}" alt="image"/>
+
+  </div>
+
+</div>
+
+___________________
